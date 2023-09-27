@@ -69,6 +69,7 @@
         <value>2476800</value>
         <value>2553600</value>
         <value>2649600</value>
+      	<value>2803200</value>
     </array>
     <array name="cpu.core_power.cluster0">
         <value>27</value>
@@ -114,7 +115,8 @@
         <value>109</value>
         <value>118</value>
         <value>129</value>
-    </array>
+	<value>136</value>  
+  </array>
     <item name="cpu.suspend">0.01</item>
     <item name="cpu.idle">12.20</item>
     <item name="cpu.active">0.01</item>
