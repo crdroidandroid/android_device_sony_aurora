@@ -56,3 +56,9 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+
+# Quick Tap
+PRODUCT_COPY_FILES += \
+    device/sony/aurora/conf/quick_tap.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/quick_tap.xml
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
