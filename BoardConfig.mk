@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/sony/aurora
 
+# Dalvik
+TARGET_HAS_6GB_RAM := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
