@@ -10,17 +10,7 @@ on property:dev.bootcomplete=1
     chmod 0600 /sys/devices/virtual/input/siw_touch_input/firmware
     restorecon /sys/devices/virtual/input/siw_touch_input/firmware
 
-    chown system system /sys/devices/common_touch/touch/glove_mode
-    chmod 0600 sys/devices/common_touch/touch/glove_mode
-    restorecon sys/devices/common_touch/touch/glove_mode
-    chown system system /sys/devices/common_touch/touch/cover_mode
-    chmod 0600 sys/devices/common_touch/touch/cover_mode
-    restorecon sys/devices/common_touch/touch/cover_mode
-
 # Touch
-on property:dev.bootcomplete=1 && property:vendor.cover_state=*
-    write /sys/devices/common_touch/touch/cover_status ${vendor.cover_state}
-
 on property:vendor.backlight_on=*
     write /sys/devices/common_touch/touch/irq_enable ${vendor.backlight_on}
 
