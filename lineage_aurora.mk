@@ -20,6 +20,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-sony-mobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="H8166-user 10 52.1.A.3.49 052001A003004902006556692 release-keys" \
-    BuildFingerprint=Sony/H8166/H8166:10/52.1.A.3.49/052001A003004902006556692:user/release-keys \
-    DeviceName=H8166 \
-    DeviceProduct=H8166
+    BuildFingerprint=Sony/H8166/H8166:10/52.1.A.3.49/052001A003004902006556692:user/release-keys
